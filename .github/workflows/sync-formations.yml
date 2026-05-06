@@ -22,10 +22,9 @@ jobs:
             -L \
             "https://craif.didask.com/api/auth/signin"
           mkdir -p public
-          COOKIE=$(grep 'sid' cookies.txt | awk '{print "sid="$NF}')
           curl -s -b cookies.txt \
             "https://craif.didask.com/api/learning-library?progressStatuses=progress-not-started&progressStatuses=progress-in-progress&offset=0&limit=24&sortBy=priority" \
-            | DIDASK_COOKIE="$COOKIE" python3 parse_formations.py > public/formations.json
+            | python3 parse_formations.py > public/formations.json
 
       - name: Commit si changements
         run: |
