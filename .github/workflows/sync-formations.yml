@@ -12,10 +12,13 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Login & fetch formations
+        env:
+          DIDASK_EMAIL: ${{ secrets.DIDASK_EMAIL }}
+          DIDASK_PASSWORD: ${{ secrets.DIDASK_PASSWORD }}
         run: |
           curl -s -c cookies.txt -X POST \
             -H "Content-Type: application/x-www-form-urlencoded" \
-            -d "email=${{ secrets.DIDASK_EMAIL }}&password=${{ secrets.DIDASK_PASSWORD }}" \
+            -d "email=${DIDASK_EMAIL}&password=${DIDASK_PASSWORD}" \
             -L \
             "https://craif.didask.com/api/auth/signin"
 
