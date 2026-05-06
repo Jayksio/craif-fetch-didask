@@ -21,6 +21,8 @@ jobs:
             -d "email=${DIDASK_EMAIL}&password=${DIDASK_PASSWORD}" \
             -L \
             "https://craif.didask.com/api/auth/signin"
+          curl -s -c cookies.txt -b cookies.txt \
+            "https://craif.didask.com/studio" > /dev/null
           mkdir -p public
           curl -s -b cookies.txt \
             "https://craif.didask.com/api/learning-library?progressStatuses=progress-not-started&progressStatuses=progress-in-progress&offset=0&limit=24&sortBy=priority" \
