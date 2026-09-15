@@ -80,6 +80,14 @@
     "is_new": false
   },
   {
+    "slug": "comprendre-le-tdah",
+    "name": "Comprendre le TDAH",
+    "duration": 64,
+    "image": "https://didask-v3-uploads.s3.eu-west-1.amazonaws.com/production/getty/1326024900",
+    "url": "https://craif.didask.com/fr/courses/comprendre-le-tdah",
+    "is_new": false
+  },
+  {
     "slug": "connaissances-actuelles-de-la-physiopathologie",
     "name": "Connaissances actuelles de la physiopathologie",
     "duration": 70,
