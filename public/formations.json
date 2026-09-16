@@ -24,6 +24,14 @@
     "is_new": true
   },
   {
+    "slug": "comprendre-le-tdah",
+    "name": "Comprendre le TDAH",
+    "duration": 64,
+    "image": "https://didask-v3-uploads.s3.eu-west-1.amazonaws.com/production/getty/1326024900",
+    "url": "https://craif.didask.com/fr/courses/comprendre-le-tdah",
+    "is_new": true
+  },
+  {
     "slug": "comprendre-le-trouble-du-spectre-de-lautisme-tsa",
     "name": "Comprendre le trouble du spectre de l'autisme (TSA)",
     "duration": 52,
@@ -77,14 +85,6 @@
     "duration": 60,
     "image": "https://didask-v3-uploads.s3.amazonaws.com/f687f436f7cb4f24b1a33b52976e8bca.jpg",
     "url": "https://craif.didask.com/fr/courses/accompagner-un-eleve-avec-un-tsa-en-maternelle",
-    "is_new": false
-  },
-  {
-    "slug": "comprendre-le-tdah",
-    "name": "Comprendre le TDAH",
-    "duration": 64,
-    "image": "https://didask-v3-uploads.s3.eu-west-1.amazonaws.com/production/getty/1326024900",
-    "url": "https://craif.didask.com/fr/courses/comprendre-le-tdah",
     "is_new": false
   },
   {
