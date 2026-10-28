@@ -80,6 +80,14 @@
     "is_new": true
   },
   {
+    "slug": "comorbidites-psychiatriques-et-medicales",
+    "name": "",
+    "duration": 90,
+    "image": "https://didask-v3-uploads.s3.amazonaws.com/04db237d46c14017a60c3bfd7fbd88ef.jpg",
+    "url": "https://craif.didask.com/fr/courses/comorbidites-psychiatriques-et-medicales",
+    "is_new": false
+  },
+  {
     "slug": "accompagnement-parental",
     "name": "Accompagnement parental",
     "duration": 60,
@@ -101,14 +109,6 @@
     "duration": 70,
     "image": "https://didask-v3-uploads.s3.amazonaws.com/bd4c62a7f54146b9b975ba88f64e97ea.jpg",
     "url": "https://craif.didask.com/fr/courses/connaissances-actuelles-de-la-physiopathologie",
-    "is_new": false
-  },
-  {
-    "slug": "comorbidites-psychiatriques-et-medicales",
-    "name": "Démarches administratives",
-    "duration": 90,
-    "image": "https://didask-v3-uploads.s3.amazonaws.com/04db237d46c14017a60c3bfd7fbd88ef.jpg",
-    "url": "https://craif.didask.com/fr/courses/comorbidites-psychiatriques-et-medicales",
     "is_new": false
   },
   {
