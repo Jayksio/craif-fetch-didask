@@ -80,14 +80,6 @@
     "is_new": true
   },
   {
-    "slug": "comorbidites-psychiatriques-et-medicales",
-    "name": "",
-    "duration": 90,
-    "image": "https://didask-v3-uploads.s3.amazonaws.com/04db237d46c14017a60c3bfd7fbd88ef.jpg",
-    "url": "https://craif.didask.com/fr/courses/comorbidites-psychiatriques-et-medicales",
-    "is_new": false
-  },
-  {
     "slug": "accompagnement-parental",
     "name": "Accompagnement parental",
     "duration": 60,
@@ -101,6 +93,14 @@
     "duration": 60,
     "image": "https://didask-v3-uploads.s3.amazonaws.com/f687f436f7cb4f24b1a33b52976e8bca.jpg",
     "url": "https://craif.didask.com/fr/courses/accompagner-un-eleve-avec-un-tsa-en-maternelle",
+    "is_new": false
+  },
+  {
+    "slug": "comorbidites-psychiatriques-et-medicales",
+    "name": "Comorbidités psychiatriques et médicales",
+    "duration": 90,
+    "image": "https://didask-v3-uploads.s3.amazonaws.com/04db237d46c14017a60c3bfd7fbd88ef.jpg",
+    "url": "https://craif.didask.com/fr/courses/comorbidites-psychiatriques-et-medicales",
     "is_new": false
   },
   {
